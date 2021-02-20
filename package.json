@@ -1,0 +1,19 @@
+{
+  "version": "0.0.2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cheerio": "^0.22.0",
+    "fetch": "^1.1.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "steam-totp": "^2.1.1",
+    "steam-tradeoffer-manager": "^2.10.2",
+    "steam-user": "^4.19.3",
+    "steamcommunity": "^3.42.0"
+  }
+}

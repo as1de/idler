@@ -5,7 +5,7 @@
 ---
 
 [![Last Update](https://img.shields.io/github/last-commit/as1de/sl-idler.svg?label=Updated&logo=github&maxAge=600)](https://github.com/as1de/sl-idler/commits)
-[![Version](https://img.shields.io/github/package-json/v/as1de/sl-idler/experimental)](https://github.com/as1de/sl-idler/tree/experimental)
+[![Version](https://img.shields.io/github/package-json/v/as1de/sl-idler/stable)](https://github.com/as1de/sl-idler/)
 [![Steam Group](https://img.shields.io/badge/Steam-group-blue.svg?logo=steam)](https://steamcommunity.com/groups/OfficialSteamLounge)
 
 [![Release Version](https://img.shields.io/github/release/as1de/sl-idler.svg?label=Version&logo=github&maxAge=600)](https://github.com/as1de/sl-idler/releases/latest)
@@ -35,7 +35,7 @@
 ### Admin Commands
 > You can easily manage your account running on this script using an admin account!
 
-## 👨‍💻 Setup
+## Setup
 
 ### `0.` Prerequisites
 * **Command Prompt** (`Windows`) or **Terminal** (`Linux`)
@@ -64,3 +64,6 @@ npm start
 | [azul-tools](https://github.com/JustAzul/azul-tools) | [Azul](https://github.com/JustAzul)
 | [steam-user](https://github.com/DoctorMcKay/node-steam-user) | [DoctorMcKay](https://github.com/DoctorMcKay) |
 | [steam-totp](https://github.com/DoctorMcKay/node-steam-totp) | [DoctorMcKay](https://github.com/DoctorMcKay) |
+| [steamcommunity](https://github.com/DoctorMcKay/node-steamcommunity)| [DoctorMcKay](https://github.com/DoctorMcKay) |
+| [node-fetch](https://github.com/node-fetch/node-fetch) | [node-fetch](https://github.com/node-fetch) |
+

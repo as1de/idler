@@ -1,0 +1,31 @@
+{
+  "name": "sl-idler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/as1de/sl-idler.git"
+  },
+  "author": "as1de (https://steamcommunity.com/id/as1delol)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/as1de/sl-idler/issues"
+  },
+  "homepage": "https://github.com/as1de/sl-idler#readme",
+  "dependencies": {
+    "azul-tools": "^1.9.2",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "os": "^0.1.1",
+    "steam-totp": "^2.1.1",
+    "steam-user": "^4.19.3",
+    "steamcommunity": "^3.42.0"
+  }
+}

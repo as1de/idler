@@ -1,17 +1,27 @@
 const SteamUser = require('steam-user');
+const SteamCommunity = require('steamcommunity');
+const TradeOfferManager = require('steam-tradeoffer-manager');
 const { Log } = require('azul-tools');
 const { EOL } = require('os');
 
-const { sharedSecret, status, gamesPlayedWhileIdle, customGamePlayedWhileIdle, behaviour } = require('./settings/account');
+const { sharedSecret, status, gamesPlayedWhileIdle, customGamePlayedWhileIdle, behaviour, identitySecret } = require('./settings/account');
 const { logOn, logOnWithoutSteamGuard } = require('./lib/helper');
 const { welcomeMessage } = require('./settings/messages');
 const { groupID } = require('./settings/global');
 const { checkForUpdates } = require('./lib/updateChecker');
 
 const client = new SteamUser();
+const community = new SteamCommunity();
+const manager = new TradeOfferManager({
+  steam: client,
+  community: community,
+  language: 'en'
+});
 
 module.exports = {
-    client: client
+    client: client,
+    community: community,
+    manager: manager
 }
 
 checkForUpdates();
@@ -48,6 +58,13 @@ client.on('loggedOn', () => {
     } else if(typeof customGamePlayedWhileIdle === 'string') {
         client.gamesPlayed(customGamePlayedWhileIdle);
     }
+});
+
+client.on('webSession', (sessionid, cookies) => {
+  manager.setCookies(cookies);
+
+  community.setCookies(cookies);
+  community.startConfirmationChecker(10000, identitySecret);
 });
 
 client.on('friendRelationship', (steamID, relationship) => {

@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 align="center">SteamLounge Idler</h1>
+  <h1 align="center">as1de's Steam Idler</h1>
 </div>
 
 ---
@@ -24,12 +24,19 @@
 
 ### Behaviours
 > Invite new friends to group
+
 > Accept friend requests
+
 > Send welcome message to new friends
+
 > Accept group invites
+
 > Accept donations
+
 > Reject friend requests
+
 > Reject group invites
+
 > Reject invalid trades (`Reject trade offers that are not donates`)
 
 ## Setup

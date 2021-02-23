@@ -4,13 +4,13 @@
 
 ---
 
-[![Last Update](https://img.shields.io/github/last-commit/as1de/sl-idler.svg?label=Updated&logo=github&maxAge=600)](https://github.com/as1de/sl-idler/commits)
-[![Version](https://img.shields.io/github/package-json/v/as1de/sl-idler/stable)](https://github.com/as1de/sl-idler/)
-[![Steam Group](https://img.shields.io/badge/Steam-group-blue.svg?logo=steam)](https://steamcommunity.com/groups/OfficialSteamLounge)
+[![Last Update](https://img.shields.io/github/last-commit/as1de/idler.svg?label=Updated&logo=github&maxAge=600)](https://github.com/as1de/idler/commits)
+[![Version](https://img.shields.io/github/package-json/v/as1de/idler/stable)](https://github.com/as1de/idler/)
+[![Steam Group](https://img.shields.io/badge/Steam-group-blue.svg?logo=steam)](https://steamcommunity.com/groups/as1de)
 
-[![Release Version](https://img.shields.io/github/release/as1de/sl-idler.svg?label=Version&logo=github&maxAge=600)](https://github.com/as1de/sl-idler/releases/latest)
-[![Eelease Date](https://img.shields.io/github/release-date/as1de/sl-idler.svg?label=Released&logo=github&maxAge=600)](https://github.com/as1de/sl-idler/releases/latest)
-[![Release Downloads](https://img.shields.io/github/downloads/as1de/sl-idler/latest/total.svg?label=Downloads&logo=github&maxAge=600)](https://github.com/as1de/sl-idler/releases/latest)
+[![Release Version](https://img.shields.io/github/release/as1de/idler.svg?label=Version&logo=github&maxAge=600)](https://github.com/as1de/idler/releases/latest)
+[![Eelease Date](https://img.shields.io/github/release-date/as1de/idler.svg?label=Released&logo=github&maxAge=600)](https://github.com/as1de/idler/releases/latest)
+[![Release Downloads](https://img.shields.io/github/downloads/as1de/idler/latest/total.svg?label=Downloads&logo=github&maxAge=600)](https://github.com/as1de/idler/releases/latest)
 
 [![Patreon](https://img.shields.io/badge/Patreon-red.svg?logo=patreon)](https://www.patreon.com/as1dexd)
 [![Steam Trade URL](https://img.shields.io/badge/Steam-donate-blue.svg?logo=steam)](https://steamcommunity.com/tradeoffer/new/?partner=1062336015&token=Bu_O15d-)
@@ -49,7 +49,7 @@
 
 ### `1.` Cloning the project
 ```bash
-git clone https://github.com/as1de/sl-idler.git
+git clone https://github.com/as1de/idler.git
 ```
 
 ### `2.` Usage

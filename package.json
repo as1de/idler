@@ -1,5 +1,5 @@
 {
-  "name": "sl-idler",
+  "name": "idler",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/as1de/sl-idler.git"
+    "url": "git+https://github.com/as1de/idler.git"
   },
   "author": "as1de (https://steamcommunity.com/id/as1delol)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/as1de/sl-idler/issues"
+    "url": "https://github.com/as1de/idler/issues"
   },
-  "homepage": "https://github.com/as1de/sl-idler#readme",
+  "homepage": "https://github.com/as1de/idler#readme",
   "dependencies": {
     "azul-tools": "^1.9.2",
     "dotenv": "^8.2.0",

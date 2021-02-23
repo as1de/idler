@@ -5,12 +5,16 @@ const { EOL } = require('os');
 const { sharedSecret, status, gamesPlayedWhileIdle, customGamePlayedWhileIdle, behaviour } = require('./settings/account');
 const { logOn, logOnWithoutSteamGuard } = require('./lib/helper');
 const { welcomeMessage } = require('./settings/messages');
-const { groupID, admins } = require('./settings/global');
+const { groupID } = require('./settings/global');
 const { checkForUpdates } = require('./lib/updateChecker');
 
-checkForUpdates();
-
 const client = new SteamUser();
+
+module.exports = {
+    client: client
+}
+
+checkForUpdates();
 
 if(typeof sharedSecret === 'string') {
     client.logOn(logOn());
@@ -75,16 +79,4 @@ client.on('groupRelationship', (groupSteamID, relationship) => {
     }
 });
 
-client.on('friendMessage', (steamID, message) => {
-    if(message === '!help') {
-        sendMessage(steamID, 'yes')
-    }
-});
-
-client.on('friendMessage', (steamID, message) => {
-    if(admins.includes(steamID)) {
-        if(message === 'admin') {
-            sendMessage('yes')
-        }
-    }
-});
+require('./lib/chatHandler');
